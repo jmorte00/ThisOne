@@ -1,0 +1,58 @@
+body {
+    background-color: #333333; /* Charcoal color */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#video-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#video-container iframe {
+    width: 560px;
+    height: 315px;
+}
+
+.categories {
+    margin-top: 50px;
+    text-align: left; /* Left align causes */
+    float: left; /* Align to left */
+    width: 50%; /* Take 50% of the page width */
+}
+
+.categories ol {
+    list-style: none;
+}
+
+.categories ol li {
+    margin-top: 10px;
+    font-weight: bold; /* Bold ordered list items */
+}
+
+.categories ul {
+    list-style: none;
+}
+
+.categories ul li {
+    margin-top: 10px;
+    font-style: italic; /* Italicize unordered list items */
+}
+
+#tableau-container {
+    margin-top: 50px;
+    text-align: center;
+    clear: both; /* Clear floats */
+}
+
+.navbar-nav .nav-link,
+.navbar-brand {
+    color: white; /* White color for navigation links */
+}
+
+.custom-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%; /* Smaller image size */
+    float: right; /* Align to right */
+}
